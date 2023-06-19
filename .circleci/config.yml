@@ -24,3 +24,11 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
+      workflows1:
+  say-hello-workflow:
+    jobs:
+      - que tal
+      workflows2:
+  say-hello-workflow:
+    jobs:
+      - adios 
